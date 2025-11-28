@@ -1,7 +1,9 @@
 export default function Home(){
 
     return(
-        <h1>UploadSlika</h1>
+       <div>
+        <h1>HelloWorsk</h1>
+       </div>
     )
 
 }
