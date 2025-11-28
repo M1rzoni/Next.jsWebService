@@ -2,18 +2,14 @@
 
 import Image from "next/image"
 import img from "./img.png"
-
-import { redirect, usePathname } from "next/navigation"
-import { use,useState } from "react"
-
-import { useRouter } from "next/navigation"
-
+import {useState} from "react"
+import {useRouter} from "next/navigation"
 
 export default function Login() {
   const router = useRouter();
 
-  const HARDCODED_USERNAME = 'anotherUser'
-  const HARDCODED_PASSWORD = 'password123'
+  const HARDCODED_USERNAME = 'admin'
+  const HARDCODED_PASSWORD = 'admin'
 
   const [username, setUsername] = useState();
   const [password, setPassword] = useState();
